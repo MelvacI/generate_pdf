@@ -1,0 +1,186 @@
+@page {
+    margin: 30px;
+}
+
+body {
+    font-family: 'Agenda', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.green-color {
+    color: #bfce31;
+}
+
+.orange-color {
+    color: #f6944e;
+}
+
+.blue-color {
+    color: #28abb9;
+}
+
+.header {
+    color: white;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    width: calc(100% - 20px);
+}
+
+.orange-hr{
+    color : #f6944e;
+    border : 1px solid #f6944e;
+    width : calc(100% - 30px);
+}
+
+.header>.logo {
+    float: left;
+    padding: 20px 0;
+    width: 250px;
+}
+
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header>.logo>img {
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.formation-title,
+.formation-diploma {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.sub-header {
+    padding: 15px;
+    width: calc(100% - 30px);
+}
+
+
+.formation-title {
+    font-size: 32px;
+}
+
+.formation-family {
+    font-size: 14px;
+    width: 100%;
+    overflow: auto;
+}
+
+
+.formation-family .formation-family-string {
+    float: left;
+}
+
+.formation-family .last-modified {
+    float: right;
+}
+
+
+
+.formation-content {
+    padding: 15px;
+    width: calc(100% - 30px);
+    overflow: auto;
+}
+
+.formation-content tr {
+    display: table-row;
+}
+
+.formation-content td {
+    display: table-cell;
+}
+
+.formation-content .column {
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: left;
+    word-wrap: break-word;
+    width: 33%;
+}
+
+li {
+    list-style-type: none;
+}
+
+li::before {
+    content: "- ";
+}
+
+ul {
+    padding: 0;
+}
+
+.formation-content-title {
+    font-size: 14px;
+}
+
+.public-info {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+.formation-secondary-content {
+    padding: 15px;
+    width: calc(100% - 30px);
+    overflow: auto;
+}
+
+
+.formation-secondary-content>.bloc {
+    width: 100%;
+}
+
+.formation-ville {
+    width: 100%;
+    overflow: auto;
+}
+
+.formation-ville>h2 {
+    font-size: 14px;
+}
+
+.formation-ville table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+.formation-ville tr {
+    display: table-row;
+    width: 100%;
+}
+
+.formation-ville td {
+    padding: 10px 15px;
+    display: table-cell;
+    width: 50%;
+    background-color: #e7d8c3;
+    border-radius: 10px;
+}
+
+.formation-ville .ville-title{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.formation-ville p {
+    margin: 0;
+}
